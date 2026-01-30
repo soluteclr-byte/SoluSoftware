@@ -1,12 +1,16 @@
-# Soluventas
+# SoluSoftware
+
+Entorno de administracion de Solutec.
+
+## Soluventas
 
 Proyecto Google Apps Script para Solusoftware.
 
-## Estructura
+### Estructura
 - `src/` código de Apps Script (clasp)
 - `docs/` documentación del proyecto
 
-## Setup rápido
+### Setup rápido
 1. Instalar clasp (si no está): `npm i -g @google/clasp`
 2. Login: `clasp login`
 3. Clonar el proyecto:
@@ -14,6 +18,6 @@ Proyecto Google Apps Script para Solusoftware.
    npx --yes @google/clasp -P . clone <SCRIPT_ID> --rootDir src
    ```
 
-## Notas
+### Notas
 - Este repo usa Apps Script (`.gs`).
 - `.clasp.json` se versiona para compartir el script ID.
